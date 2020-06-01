@@ -14,6 +14,8 @@
 		69EBD5952484056D0094A2D0 /* animationTransitioning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69EBD5932484056D0094A2D0 /* animationTransitioning.xcdatamodeld */; };
 		69EBD5972484056F0094A2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EBD5962484056F0094A2D0 /* Assets.xcassets */; };
 		69EBD59A2484056F0094A2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EBD5982484056F0094A2D0 /* LaunchScreen.storyboard */; };
+		69EBD5A5248407490094A2D0 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EBD5A3248407490094A2D0 /* DrawerViewController.swift */; };
+		69EBD5A6248407490094A2D0 /* DrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69EBD5A4248407490094A2D0 /* DrawerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		69EBD5962484056F0094A2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69EBD5992484056F0094A2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69EBD59B2484056F0094A2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69EBD5A3248407490094A2D0 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		69EBD5A4248407490094A2D0 /* DrawerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				69EBD5982484056F0094A2D0 /* LaunchScreen.storyboard */,
 				69EBD59B2484056F0094A2D0 /* Info.plist */,
 				69EBD5932484056D0094A2D0 /* animationTransitioning.xcdatamodeld */,
+				69EBD5A3248407490094A2D0 /* DrawerViewController.swift */,
+				69EBD5A4248407490094A2D0 /* DrawerViewController.xib */,
 			);
 			path = animationTransitioning;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69EBD59A2484056F0094A2D0 /* LaunchScreen.storyboard in Resources */,
+				69EBD5A6248407490094A2D0 /* DrawerViewController.xib in Resources */,
 				69EBD5972484056F0094A2D0 /* Assets.xcassets in Resources */,
 				69EBD5922484056D0094A2D0 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				69EBD58F2484056D0094A2D0 /* ViewController.swift in Sources */,
 				69EBD58B2484056D0094A2D0 /* AppDelegate.swift in Sources */,
 				69EBD58D2484056D0094A2D0 /* SceneDelegate.swift in Sources */,
+				69EBD5A5248407490094A2D0 /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
